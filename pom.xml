@@ -99,7 +99,7 @@
         <dependency>
             <groupId>com.approvaltests</groupId>
             <artifactId>approvaltests</artifactId>
-            <version>23.1.0</version>
+            <version>24.2.0</version>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
