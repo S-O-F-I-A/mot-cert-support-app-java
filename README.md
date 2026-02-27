@@ -1,3 +1,6 @@
+# Activity 2.1.2
+Adding some changes
+
 # Ministry of Testing Certificates in Automation Support App
 The accompanying code repository for the Ministry of Testing Certificates in Automation
 
