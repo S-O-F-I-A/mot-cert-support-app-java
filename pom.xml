@@ -49,9 +49,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
                 <configuration>
-                    <includes>
-                        <include>**/*Test.java</include>
-                    </includes>
                     <excludes>
                         <exclude>**/LoginTest.java</exclude>
                     </excludes>
