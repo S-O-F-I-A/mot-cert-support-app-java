@@ -17,7 +17,7 @@ jobs:
         run: mvn --batch-mode package
       - name: Run E2E checks
         run: |
-          java -jar target//mot-cert-support-app-java-*-exec.jar &
+          java -jar target//mot-cert-support-app-java-0.1-exec.jar &
           echo "Esperant que el server estigui llest...."
           curl --head -X GET --retry 30 --retry-connrefused --retry-delay 1 http://localhost:8080
           mvn test -Dtest=LoginTest
